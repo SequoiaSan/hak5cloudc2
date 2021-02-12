@@ -1,6 +1,6 @@
 FROM ubuntu:bionic as baseos
 LABEL maintainer=faithfulst3ward@protonmail.com
-LABEL forked=dmitry.biliuna@gmail.com
+LABEL forked=dmitry.biliuba@gmail.com
 #
 WORKDIR /app
 #
