@@ -1,4 +1,4 @@
-# cloudc2docker
+# hak5cloudc2
 A Docker container for Hak5's Cloud C2.
 
 ## Built On
@@ -22,5 +22,5 @@ Run start.sh to run the container
 ## Backup
 To make a backup of your data, run the following command on your server:
 ```
-sudo docker run --rm --volumes-from cloudc2docker -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /app
+sudo docker run --rm --volumes-from hak5cloudc2 -v $(pwd):/backup ubuntu tar cvf /backup/backup.tar /app
 ```
